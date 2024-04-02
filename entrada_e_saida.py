@@ -15,4 +15,11 @@ def multiply():
     multvalue2 = int(input("Digite outro número: "))
     multresult = multvalue1*multvalue2
     print("A multiplicação desses números é: ",multresult)
-multiply()
+#multiply()
+
+def media():
+    mediavalue1 = int(input("Digite um número: "))
+    mediavalue2 = int(input("Digite outro número: "))
+    mediaresult = (mediavalue1+mediavalue2)/2
+    print("A média desses números é: ",mediaresult)
+media()
