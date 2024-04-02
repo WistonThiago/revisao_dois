@@ -27,6 +27,6 @@ media()
 def imc():
     altura = float(input("Digite a sua altura: "))
     peso = float(input("Digite o seu peso: "))
-    imcresult = round((peso/altura), 2)
+    imcresult = round((peso/(altura*altura)), 2)
     print("O seu IMC é de: ",imcresult)
 imc()
