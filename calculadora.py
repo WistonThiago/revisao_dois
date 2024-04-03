@@ -1,8 +1,10 @@
-print("Calculadora em Python!")
-print("1 - Soma")
-print("2 - Subtração")
-print("3 - Multiplicação")
-print("4 - Divisão")
+print("""
+                Calculadora em Python!
+                Digite 1 para somar;
+                Digite 2 para subtrair;
+                Digite 3 para multiplicar;
+                Digite 4 para dividir.
+                """)
 
 def calculadora():
     confirm = False
@@ -83,5 +85,14 @@ def calculadora():
                 divisao()
                 break
         except:
-            print("Entrada inválida")
+            print("""
+                Operação desconhecida, insira uma opção válida.
+                """)
+            print("""
+                Calculadora em Python!
+                Digite 1 para somar;
+                Digite 2 para subtrair;
+                Digite 3 para multiplicar;
+                Digite 4 para dividir.
+                """)
 calculadora()
