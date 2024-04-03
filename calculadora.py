@@ -5,10 +5,10 @@ print("3 - Multiplicação")
 print("4 - Divisão")
 
 def calculadora():
-    operation = int(input("Escolha uma operação: "))
     confirm = False
     while (confirm == False):
         try:
+            operation = int(input("Escolha uma operação: "))
             print("Processando a sua escolha...")
             if (operation == 1):
                 def soma():
